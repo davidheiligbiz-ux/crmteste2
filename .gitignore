@@ -1,0 +1,38 @@
+# Dependências
+node_modules/
+package-lock.json
+yarn.lock
+
+# Banco de Dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output de build
+dist/
+build/
+
+# Diversos
+.cache/
+temp/
+tmp/
